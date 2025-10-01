@@ -1,18 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://example.org/posts/introduction/</loc>
-    <lastmod>2025-09-16T00:49:38-05:00</lastmod>
-  </url><url>
-    <loc>https://example.org/</loc>
-    <lastmod>2025-09-16T00:49:38-05:00</lastmod>
-  </url><url>
-    <loc>https://example.org/posts/</loc>
-    <lastmod>2025-09-16T00:49:38-05:00</lastmod>
-  </url><url>
-    <loc>https://example.org/categories/</loc>
-  </url><url>
-    <loc>https://example.org/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>http://localhost:1313/en-gb/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/de-de/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/fr-fr/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/ja/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/pt-br/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/ru-ru/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/zh-cn/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/it/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>

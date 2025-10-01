@@ -32,4 +32,4 @@ I mean he's actually not (fake that is), I really did intend to write that as my
 And also - I really don't know what I meant by "multi-media fun" or why I chose those that weird combination of words, but it's
 the closest description I could give for the kind of stuff I want to do / make.
 
-Alright goodnight ya'll.
+Alright goodnight ya'll, it's going to be a wild ride.
