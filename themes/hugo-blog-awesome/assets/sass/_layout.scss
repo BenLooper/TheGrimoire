@@ -1,11 +1,11 @@
 // Author
 .author {
-  margin-top: 6.3rem;
-  margin-bottom: 7.2rem;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
   text-align: center;
 
   @include media-query($on-mobile) {
-    margin-bottom: 3em;
+    margin-bottom: 1.5em;
   }
 
   .author-avatar {
@@ -22,7 +22,7 @@
   }
 
   .author-name {
-    font-size: 1.7em;
+    font-size: 1.8em;
     margin-bottom: 2px;
   }
 

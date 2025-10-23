@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 {{- $defaultColor := .Site.Params.defaultColor | default "auto" -}}
 
 {{/* allow website developer to enforce default dark mode */}}
@@ -11,14 +11,23 @@
 {{- end -}}
 
 {{- partial "head.html" . -}}
-
 <body data-theme="{{ $defaultColor }}" class="notransition">
     {{- partial "scriptsBodyStart.html" . -}}
     {{- partial "header.html" . -}}
     <div class="wrapper">
         {{ partial "bio" . }}
         <main aria-label="Content">
-            <h3 class="posts-item-note" aria-label="Recent Posts">{{ T "home.recent_posts" }}</h3>
+<div id="gameCard">
+        <canvas id="gameCanvas"></canvas>
+        <div id="actionMenu">
+          <span id="playPauseButton" class="material-symbols-outlined icon"
+            >play_pause</span
+          >
+          <span id="restartButton" class="material-symbols-outlined icon"
+            >replay</span
+          >
+</div>
+            <h2 class="posts-item-note" aria-label="Recent Posts">{{ T "home.recent_posts" }}</h2>
             {{/* Show last 5 posts in reverse date order */}}
             {{ $pagesToShow := where .Site.RegularPages "Section" "in" site.Params.mainSections }}
             {{ $posts := $pagesToShow.ByDate.Reverse }}
