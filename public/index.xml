@@ -2,9 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>EXHIBIT B</title>
-    <link>http://localhost:1313/</link>
+    <link>https://hba.sid.one/</link>
     <description>Recent content on EXHIBIT B</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 03 Oct 2025 21:53:22 -0500</lastBuildDate><atom:link href="https://hba.sid.one/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>https://hba.sid.one/posts/introduction/</link>
+      <pubDate>Tue, 16 Sep 2025 00:49:38 -0500</pubDate>
+      
+      <guid>https://hba.sid.one/posts/introduction/</guid>
+      
+      <description>&lt;h2 id=&#34;welcome&#34;&gt;Welcome&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m Ben, thanks for stopping by :^)
+I&amp;rsquo;m a husband, a father to three cats, and I&amp;rsquo;m interested in&amp;hellip;a lot of things. Maybe too many things?
+Either way, I&amp;rsquo;ll be writing about those things mostly, and I hope to also try my hand at some multi-media fun.&lt;/p&gt;
+&lt;p&gt;Now you might be wondering what I meant by &amp;ldquo;multi-media fun&amp;rdquo; a second ago - Hi, I&amp;rsquo;m the real Ben, the one that thinks
+a little less about how I present myself and just sort of&amp;hellip;&lt;/p&gt;</description>
+      
+    </item>
+    
   </channel>
 </rss>
