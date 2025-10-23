@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="it" class="dark"><head><meta charset="utf-8">
+<!DOCTYPE html><html lang="it" class="dark"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -17,31 +17,31 @@
 <meta property="og:locale" content="it" />
 <meta name="language" content="it" />
 
-  <link rel="alternate" hreflang="en-gb" href="https://hba.sid.one/" title="English" />
+  <link rel="alternate" hreflang="en-gb" href="http://localhost:1313/" title="English" />
 
-  <link rel="alternate" hreflang="de-de" href="https://hba.sid.one/de-de/" title="German" />
+  <link rel="alternate" hreflang="de-de" href="http://localhost:1313/de-de/" title="German" />
 
-  <link rel="alternate" hreflang="fr-fr" href="https://hba.sid.one/fr-fr/" title="French" />
+  <link rel="alternate" hreflang="fr-fr" href="http://localhost:1313/fr-fr/" title="French" />
 
-  <link rel="alternate" hreflang="ja" href="https://hba.sid.one/ja/" title="Japanese" />
+  <link rel="alternate" hreflang="ja" href="http://localhost:1313/ja/" title="Japanese" />
 
-  <link rel="alternate" hreflang="pt-br" href="https://hba.sid.one/pt-br/" title="Brazilian" />
+  <link rel="alternate" hreflang="pt-br" href="http://localhost:1313/pt-br/" title="Brazilian" />
 
-  <link rel="alternate" hreflang="ru-ru" href="https://hba.sid.one/ru-ru/" title="Russian" />
+  <link rel="alternate" hreflang="ru-ru" href="http://localhost:1313/ru-ru/" title="Russian" />
 
-  <link rel="alternate" hreflang="zh-cn" href="https://hba.sid.one/zh-cn/" title="Chinese" />
+  <link rel="alternate" hreflang="zh-cn" href="http://localhost:1313/zh-cn/" title="Chinese" />
 
-  <link rel="alternate" hreflang="it" href="https://hba.sid.one/it/" title="Italian" />
-
-
+  <link rel="alternate" hreflang="it" href="http://localhost:1313/it/" title="Italian" />
 
 
 
 
-<meta name="generator" content="Hugo 0.151.0">
+
+
+<meta name="generator" content="Hugo 0.152.1">
 
     
-    <meta property="og:url" content="https://hba.sid.one/it/">
+    <meta property="og:url" content="http://localhost:1313/it/">
   <meta property="og:site_name" content="EXHIBIT B">
   <meta property="og:title" content="EXHIBIT B">
   <meta property="og:description" content="Un tema Hugo veloce e minimalista con supporto per la modalità chiara e scura, per la gestione di un sito o di un blog personale">
@@ -58,10 +58,10 @@
 
     
 
-    <link rel="canonical" href="https://hba.sid.one/it/">
+    <link rel="canonical" href="http://localhost:1313/it/">
     <link href="/it/index.xml" rel="alternate" type="application/rss+xml" title="EXHIBIT B">
     <link href="/it/index.xml" rel="feed" type="application/rss+xml" title="EXHIBIT B">
-    <link href="/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
+    <link href="/style.min.e2df3f7151c17f13e69b05112c3508fae099bea3b0fa41d1f273bcf34e019e5d.css" rel="stylesheet">
     <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
     
@@ -74,7 +74,7 @@
 
 
 
-<link rel="manifest" href="https://hba.sid.one/site.webmanifest">
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
 
 <meta name="msapplication-config" content="/browserconfig.xml">
 <meta name="msapplication-TileColor" content="#2d89ef">
@@ -85,15 +85,14 @@
 
     
     
-    
 </head>
 <body data-theme="dark" class="notransition">
 
-<script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
+<script src="/js/theme.js"></script>
 
 <div class="navbar" role="navigation">
     <nav class="menu" aria-label="Main Navigation">
-        <a href="https://hba.sid.one/it/" class="logo">
+        <a href="http://localhost:1313/it/" class="logo">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
 stroke-linejoin="round" class="feather feather-home">
@@ -158,7 +157,17 @@ stroke-linejoin="round" class="feather feather-home">
 </div>
 
         <main aria-label="Content">
-            <h3 class="posts-item-note" aria-label="Recent Posts">Articoli Recenti</h3>
+<div id="gameCard">
+        <canvas id="gameCanvas"></canvas>
+        <div id="actionMenu">
+          <span id="playPauseButton" class="material-symbols-outlined icon"
+            >play_pause</span
+          >
+          <span id="restartButton" class="material-symbols-outlined icon"
+            >replay</span
+          >
+</div>
+            <h2 class="posts-item-note" aria-label="Recent Posts">Articoli Recenti</h2>
             
             
             
@@ -228,7 +237,7 @@ stroke-linejoin="round" class="feather feather-home">
 
 
     
-    <script src="https://hba.sid.one/js/main.min.35f435a5d8eac613c52daa28d8af544a4512337d3e95236e4a4978417b8dcb2f.js" integrity="sha256-NfQ1pdjqxhPFLaoo2K9USkUSM30&#43;lSNuSkl4QXuNyy8="></script>
+    <script async src="http://localhost:1313/js/main.js" ></script>
 
     
 
