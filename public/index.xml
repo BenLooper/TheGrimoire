@@ -2,17 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>EXHIBIT B</title>
-    <link>http://localhost:1313/</link>
+    <link>https://hba.sid.one/</link>
     <description>Recent content on EXHIBIT B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 03 Oct 2025 21:53:22 -0500</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jan 2026 22:32:18 -0600</lastBuildDate><atom:link href="https://hba.sid.one/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terminal Customization in 2026</title>
+      <link>https://hba.sid.one/posts/terminal_customization/</link>
+      <pubDate>Tue, 13 Jan 2026 22:32:18 -0600</pubDate>
+      
+      <guid>https://hba.sid.one/posts/terminal_customization/</guid>
+      
+      <description>&lt;h3 id=&#34;working-out-of-the-terminal-is-kinda-cool-guys&#34;&gt;Working out of the terminal is kinda cool guys&lt;/h3&gt;
+&lt;p&gt;I never thought I would be that guy, but here we are - I now have an embarrasing desire to use my computer as much as I can from the terminal.
+I don&amp;rsquo;t really know exactly where it came from or why, all I can say is that it satisfies a desire in me to have control over my experience.
+Since learning Neovim and adopting it as my primary editor, I had a realization that all of the applications that I&amp;rsquo;ve been using - Chrome, Spotify, VSCode - they&amp;rsquo;re all fancy wrappers for rudimentary tasks.&lt;br&gt;
+Neovim showed me that something simpler, something totally free and transparent that I can make myself, could be just as good (if not better) than those apps.
+This kind of software feels like a gateway to learning how things &lt;em&gt;really&lt;/em&gt; work - you can look at the code yourself to understand what&amp;rsquo;s happening.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>Introduction</title>
-      <link>http://localhost:1313/posts/introduction/</link>
+      <link>https://hba.sid.one/posts/introduction/</link>
       <pubDate>Tue, 16 Sep 2025 00:49:38 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/introduction/</guid>
+      <guid>https://hba.sid.one/posts/introduction/</guid>
       
       <description>&lt;h2 id=&#34;welcome&#34;&gt;Welcome&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;m Ben, thanks for stopping by :^)
