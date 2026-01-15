@@ -3,7 +3,7 @@ date = '2026-01-13T22:32:18-06:00'
 draft = false
 title = 'Terminal Customization in 2026'
 +++
-### Working out of the terminal is kinda cool guys
+### Working in the terminal
 I never thought I would be that guy, but here we are - I now have an embarrasing desire to use my computer as much as I can from the terminal.
 I don't really know exactly where it came from or why, all I can say is that it satisfies a desire in me to have control over my experience.
 Since learning Neovim and adopting it as my primary editor, I had a realization that all of the applications that I've been using - Chrome, Spotify, VSCode - they're all fancy wrappers for rudimentary tasks.   
@@ -12,7 +12,7 @@ This kind of software feels like a gateway to learning how things _really_ work 
 
 ### Practical example that happened to me today 
 Take, for instance, a file manager. Today after work, I installed a TUI file manager I'd had my eye on in [Terminal Trove](https://terminaltrove.com/) - it's called [rovr](https://terminaltrove.com/rovr/).
-I have started becoming frustrated while using Windows file manager. Searching for files was is slow and the program itself is so basic yet, seems to consume so much memory.
+I have started becoming frustrated with Windows' out of the box file manager. Searching for files is slow and the program itself is so basic yet, seems to consume so much memory.
 
 All of those issues are addressed with this file manager, with the added bonus that it uses vim keybindings just like I use in Neovim.
 
